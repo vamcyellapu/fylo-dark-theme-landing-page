@@ -720,6 +720,10 @@ video {
   width: 1rem;
 }
 
+.w-32 {
+  width: 8rem;
+}
+
 .max-w-5xl {
   max-width: 64rem;
 }
@@ -779,6 +783,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
 }
 
 .gap-5 {
@@ -1175,6 +1183,14 @@ video {
     width: 11rem;
   }
 
+  .md\:w-32 {
+    width: 8rem;
+  }
+
+  .md\:w-36 {
+    width: 9rem;
+  }
+
   .md\:max-w-xl {
     max-width: 36rem;
   }
@@ -1244,6 +1260,16 @@ video {
     padding-right: 8rem;
   }
 
+  .md\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .md\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
   .md\:pt-12 {
     padding-top: 3rem;
   }
@@ -1254,6 +1280,14 @@ video {
 
   .md\:pb-10 {
     padding-bottom: 2.5rem;
+  }
+
+  .md\:pr-10 {
+    padding-right: 2.5rem;
+  }
+
+  .md\:pt-16 {
+    padding-top: 4rem;
   }
 
   .md\:text-lg {
